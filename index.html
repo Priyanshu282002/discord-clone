@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="/fonts">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script src="https://kit.fontawesome.com/919ab53d66.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="bg-blue flex flex-row justify-center items-center p-6 mx-auto flex-wrap">
+    <nav class="bg-blue flex flex-row justify-center items-center pt-6 mx-auto flex-wrap">
         <img src="/images/logo.svg" class="relative right-64">
         <div class="flex gap-8">
         <div class="text-white text-md font-sans font-semibold hover:underline"><a href="#">Download</a></div>
@@ -23,12 +24,12 @@
         <div class="text-white text-md font-sans font-semibold hover:underline"><a href="#">Careers</a></div>
         </div>
 
-        <button class="text-gray-700 relative left-60 bg-white p-2 rounded-full pl-4 pr-4 text-sm font-sans font-semibold hover:text-blue hover:drop-shadow-xl transition-all duration-500">Open Discord</button>
+        <button class="text-gray-700 relative left-60 bg-white p-2 rounded-full pl-4 pr-4 text-sm font-sans font-semibold hover:text-blue hover:drop-shadow-xl transition-all duration-500">Login</button>
         
     </nav>
     
     <!-- Hero Section -->
-    <section class="w-full h-fit bg-blue flex flex-col justify-center items-center relative">
+    <!-- <section class="w-full h-fit bg-blue flex flex-col justify-center items-center relative">
             <div class="flex flex-col justify-center items-center gap-4 z-10">
                 <div class="text-white pt-28 text-6xl font-extrabold">IMAGINE A PLACE...</div>
                 <div class="text-white pt-4 pb-3"><span class="relative left-2.5">...where you can belong to a school club, a gaming group, or a worldwide art community.</span><br>Where just you and a handful of friends can spend time together. A place that makes it easy <br><span class="relative left-48">to talk every day and hang out more often.</span> 
@@ -44,10 +45,37 @@
                 <div class="absolute -left-52 bottom-28 "><img src="/images/Image2.svg" ></div>
             </div>
                        
+    </section> -->
+
+    <section class="bg-blue flex justify-center items-baseline pt-28">
+
+            <img src="/images/Image0.svg" class="relative bg-cover scale-x-150 items-baseline">
+
+            <img src="/images/Image2.svg" class="absolute -left-72 bottom-28"> 
+
+             
+
+            <div class="absolute flex flex-col justify-center items-center">
+                <div class=" pb-10 text-white text-6xl font-extrabold ">IMAGINE A PLACE...</div>
+                <div class="text-white flex flex-col justify-center items-center pb-10">   
+                    <div>...where you can belong to a school club, a gaming group, or a worldwide art community.</div>
+                    <div>Where just you and a handful of friends can spend time together. A place that makes it easy</div> 
+                    <div> to talk every day and hang out more often.</div> 
+                </div>
+                
+                <div class="flex gap-4">
+                    <button class="bg-white p-3 pl-5 pr-6 rounded-full flex gap-2"><img src="/icons8-downloading-updates-48.png" class="h-6 font-Whitney">Download for Windows</button>
+                    <button class="text-white bg-gray-800 p-3 pl-4 pr-4 rounded-full">Open Discord in your browser</button>
+                </div>
+            </div>
+
+            
+            <img src="/images/Image1.svg" class="absolute -right-56 bottom-28">
+   
     </section>
 
     <!-- Section 1 -->
-    <section class="bg-white mt-40 mb-40">
+    <section class="bg-white pt-40 pb-40">
         <div class="flex justify-center items-center gap-20">
             <div class=""><img src="/images/section1Image.svg"></div>
             <div class="flex flex-col justify-evenly">
@@ -60,7 +88,7 @@
     </section>
 
     <!-- Section 2 -->
-    <section class="bg-neutral-100 mt-40 mb-40">
+    <section class="bg-neutral-100 pt-40 pb-40">
         <div class="flex justify-center items-center gap-20">
             <div class="flex flex-col justify-evenly">
                 <div class="text-5xl font-bold w-96 mb-9 ">Where hanging out is easy</div>
@@ -71,7 +99,7 @@
     </section>
 
     <!-- Section 3 -->
-    <section class="bg-white mt-40 mb-40">
+    <section class="bg-white pt-40 pb-40">
         <div class="flex justify-center items-center gap-20">
             <div class=""><img src="/images/section3Image.svg"></div>
             <div class="flex flex-col">
@@ -82,7 +110,7 @@
     </section>
 
     <!-- Section 4 -->
-    <section class=" bg-neutral-100 mt-40 mb-40">
+    <section class=" bg-neutral-100 pt-40 pb-20">
         <div class="flex flex-col w-full h-full justify-center items-center">
             <div class="font-extrabold text-5xl my-5">RELIABLE TECH FOR STAYING CLOSE</div>
             <div class="text-lg">Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their </div>
@@ -92,16 +120,92 @@
     </section>
 
     <!-- Section 5 -->
-    <section class="mt-40 mb-40">
+    <section class=" bg-neutral-100  pb-20">
         <div class="flex flex-col justify-center items-center gap-10">
             <div class="flex flex-col justify-center items-center">
                 <div class="relative bottom-5"><img src="/images/section5Image.svg"></div>
                 <h2 class="font-bold absolute text-3xl">Ready to start your journey?</h2>
             </div>
             <div>
-                <button class="bg-blue text-white p-3 pl-5 pr-6 rounded-full flex gap-2"><img src="/icons8-downloading-updates-48.png" class="h-6 font-Whitney">Download for Windows</button>
+                <button class="bg-blue text-white p-3 pl-6 pr-6 rounded-full flex gap-2 items-baseline">
+                    <i class="fa-solid fa-download"></i>
+                    <div>Download for Windows</div>
+                </button>
+                
             </div>
         </div>
     </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 p-14">
+        <div class="flex justify-evenly">
+            <div class="flex flex-col gap-10">
+                <div class="text-white">English</div>
+                <div class="flex gap-5">
+                    <i class="fa-brands fa-x-twitter text-white"></i>
+                    <i class="fa-brands fa-instagram text-white"></i>
+                    <i class="fa-brands fa-facebook text-white"></i>
+                    <i class="fa-brands fa-youtube text-white"></i>
+                    <i class="fa-brands fa-tiktok text-white"></i>
+                </div>
+            </div>
+            
+
+            <div class="text-white">
+                <div class="text-blue pb-5">Product</div>
+                <div class="flex flex-col gap-2">
+                    <div>Download</div>
+                    <div>Nitro</div>
+                    <div>Status</div>
+                    <div>App Directory</div>
+                    <div>New Mobile Experience</div>
+                </div>
+                
+            </div>
+
+            <div class="text-white">
+                <div class="text-blue pb-5">Company</div>
+                <div class="flex flex-col gap-2">
+                    <div>About</div>
+                    <div>Jobs</div>
+                    <div>Brand</div>
+                    <div>Newsroom</div>
+                    <div>Fall Release</div>
+                </div>
+                
+            </div>
+
+            <div class="text-white">
+                <div class="text-blue pb-5">Resources</div>
+                <div class="flex flex-col gap-2">
+                    <div>College</div>
+                    <div>Support</div>    
+                    <div>Safety</div>    
+                    <div>Blog</div>   
+                    <div>Feedback</div>    
+                    <div>StreamKit</div>
+                    <div>Creators</div>
+                    <div>Community</div>
+                    <div>Developers</div>
+                    <div>Gaming</div>
+                    <div>Official 3rd Party Merch</div>   
+                </div>
+                     
+            </div>
+            <div class="text-white">
+                <div class="text-blue pb-5">Policies</div>
+                <div class="flex flex-col gap-2">
+                    <div>Terms</div>
+                    <div>Privacy</div>
+                    <div>Cookie Settings</div>
+                    <div>Guidelines</div>
+                    <div>Acknowledgements</div>
+                    <div>Licenses</div>
+                    <div>Company Information</div>    
+                </div>
+                 
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
