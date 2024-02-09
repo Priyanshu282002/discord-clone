@@ -1,5 +1,5 @@
 Hello!!!
-I tried making Discord clone using HTML and Tailwind CSS. I did it to learn more about Tailwind CSS.
+I tried making Discord clone using HTML and Tailwind CSS. I did it to learn more about Tailwind CSS. You can visit the website using - https://priyanshu282002.github.io/discord-clone/
 
 Here are the screenshots for the same.
 ![Screenshot (114)](https://github.com/Priyanshu282002/discord-clone/assets/110727059/484cbd3b-d6cd-4dc9-b0b3-bbc84dfa9274)
